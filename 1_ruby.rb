@@ -1,4 +1,8 @@
-# 
+# puts - render data with line breack
+# print - no line breack
+# p - print data with all symbols
+
+
 #
 #
 # ######### arithmetic #########
@@ -56,4 +60,6 @@ puts 6 % 2
 #
 #
 puts "race" + "car"
-#racecar
+# racecar
+puts "4" + "3"
+# 43
