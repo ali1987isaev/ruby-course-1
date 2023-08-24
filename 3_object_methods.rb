@@ -90,3 +90,22 @@ puts
 puts 3.14.class # Float
 puts 0.23.class # Float
 puts -10.99.class # Float
+
+# convert type of the object
+text = "5"
+puts text
+puts text.class # String
+puts text.to_i
+puts text.to_i.class # Integer
+puts "15 apples".to_i # 15
+puts "apples 15".to_i # 0
+puts "nonsense".to_i # 0
+puts text.to_f # 5.0
+puts text.to_f.class # Float
+
+puts
+
+number = 5
+puts number.class # Integer
+puts number.to_s.class # String // '5'
+puts number.to_f.class # Float // 5.0
